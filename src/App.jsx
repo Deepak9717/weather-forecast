@@ -74,7 +74,8 @@ function App() {
   return (
     <div className="container">
       <form onSubmit={(e) => search(e)}>
-        <h1 className="title">Know Your Weather</h1>
+        <h1 className="title">Weather Forecast</h1>
+        <p className="text">Know real-time weather forecast of your place</p>
         <div className="search-bar">          
           <input
             type="text"
